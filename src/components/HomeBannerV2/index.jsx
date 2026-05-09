@@ -20,7 +20,7 @@ const HomeBannerV2 = () => {
         const data = await res.json();
         console.log("Banner API Response:", data);
 
-        // ✅ Your response stores banners inside "data"
+        //  Your response stores banners inside "data"
         setBanners(data?.data || []);
       } catch (err) {
         console.error("Banner fetch error", err);

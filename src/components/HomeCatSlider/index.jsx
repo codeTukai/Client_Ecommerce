@@ -27,7 +27,7 @@ const categories = [
     image: "https://api.spicezgold.com/download/file_1734525255799_beauty.png",
   },
   {
-    name: "Jewellery",
+    name: "Jewelry",
     image: "https://api.spicezgold.com/download/file_1734525286186_jw.png",
   },
   {

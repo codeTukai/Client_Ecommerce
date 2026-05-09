@@ -30,7 +30,7 @@ const BlogItem = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry....
         </p>
 
-        {/* ✅ Fixed from <link> to <Link> */}
+       
         <Link to="/" className="link font-[500] text-[14px] flex items-center gap-1 text-primary hover:underline">
           Read More <MdArrowForwardIos />
         </Link>
