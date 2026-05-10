@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineDeleteOutline } from "react-icons/md";
 import Button from "@mui/material/Button";
-import API from "../../utils/api";
+import { Api } from "@mui/icons-material";
 
 const CartPanel = () => {
   const [cartItems, setCartItems] = useState([]);

@@ -40,7 +40,7 @@ function App() {
   const [userData, setUserData] = useState(null);
   const [openCartPanel, setOpenCartPanel] = useState(false);
 
-  // ✅ Get user details on mount
+  //  Get user details on mount
   const fetchUserDetails = async () => {
     const token = localStorage.getItem("accessToken");
 
