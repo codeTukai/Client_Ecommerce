@@ -1,7 +1,8 @@
 import React, { useState, createContext, useContext, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Header from "./components/Header";
+// import Header from "./components/Header";
+import Header from "./components/header/Header"
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ProductListing from "./pages/ProductListing";
@@ -95,7 +96,7 @@ function App() {
       <BrowserRouter>
         <MyContext.Provider value={myContextValue}>
           <ProductModalContext.Provider value={modalContextValue}>
-            <Header />
+            <Header/>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/ProductListing" element={<ProductListing />} />

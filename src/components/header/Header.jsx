@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
@@ -226,7 +226,7 @@ const Header = () => {
                 </>
               )}
 
-              {/* Compare / Wishlist / Cart */}
+            
               <li>
                 <Tooltip title="Compare">
                   <IconButton aria-label="compare">
