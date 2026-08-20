@@ -96,7 +96,7 @@ const ForgotPassword = () => {
           </h3>
 
           <form className="w-full mt-5" onSubmit={handleSubmit}>
-            {/* Email Field */}
+          
             <div className="form-group w-full mb-5">
               <TextField
                 type="email"
@@ -110,7 +110,7 @@ const ForgotPassword = () => {
               />
             </div>
 
-            {/* New Password */}
+           
             <div className="form-group w-full mb-5 relative">
               <TextField
                 type={showNewPassword ? "text" : "password"}
@@ -131,7 +131,7 @@ const ForgotPassword = () => {
               </Button>
             </div>
 
-            {/* Confirm Password */}
+           
             <div className="form-group w-full mb-5 relative">
               <TextField
                 type={showConfirmPassword ? "text" : "password"}
@@ -152,7 +152,7 @@ const ForgotPassword = () => {
               </Button>
             </div>
 
-            {/* Submit Button */}
+       
             <Button
               type="submit"
               disabled={!isFormValid || isLoading}

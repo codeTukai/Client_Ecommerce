@@ -137,10 +137,10 @@ const Login = () => {
         </div>
       </header>
 
-      {/* Background */}
+     
       <img src="/pattern.jpg" className="fixed top-0 left-0 w-full opacity-5 z-0" alt="" />
 
-      {/* Login Card */}
+      
       <div className="loginBox card w-[45%] min-h-[450px] mx-auto mt-28 relative z-50 p-6 bg-white shadow-lg rounded-lg">
         <div className="text-center">
           <img src="/icon1.webp" className="w-[150px] mx-auto" alt="icon" />
@@ -177,14 +177,14 @@ const Login = () => {
           </Button>
         </div>
 
-        {/* Divider */}
+        
         <div className="flex items-center justify-center mt-6 gap-3">
           <span className="w-[100px] h-[1px] bg-gray-300"></span>
           <span className="text-[14px] font-[500]">Or, sign in with your email</span>
           <span className="w-[100px] h-[1px] bg-gray-300"></span>
         </div>
 
-        {/* Form */}
+       
         <form className="mt-6" onSubmit={handleSubmit} autoComplete="off">
           <div className="mb-5">
             <TextField
