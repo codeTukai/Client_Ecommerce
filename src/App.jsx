@@ -29,7 +29,7 @@ import CartPanel from "./components/CartPanel";
 
 import toast, { Toaster } from "react-hot-toast";
 import { fetchDataFromApi } from "./utils/api";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 
 
