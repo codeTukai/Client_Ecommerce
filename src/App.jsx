@@ -28,7 +28,8 @@ import CartPanel from "./components/CartPanel";
 
 import toast, { Toaster } from "react-hot-toast";
 import { fetchDataFromApi } from "./utils/api";
-import { Header } from "./components/Header"
+import Header from "./components/Header/Header";
+
 
 
 // Contexts
@@ -96,7 +97,7 @@ function App() {
       <BrowserRouter>
         <MyContext.Provider value={myContextValue}>
           <ProductModalContext.Provider value={modalContextValue}>
-            <Header/>
+            <Header />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/ProductListing" element={<ProductListing />} />
