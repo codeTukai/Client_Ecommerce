@@ -7,7 +7,7 @@ import { MdOutlineRocketLaunch } from "react-icons/md";
 import CategoryPanel from "./CategoryPanel";
 import "./style.css";  // Import the CSS file
 
-const Navigation = () => {
+export const Navigation = () => {
   const [isOpenCatPanel, setIsOpenCatPanel] = useState(false);
 
   const openCategoryPanel = () => {
@@ -179,7 +179,7 @@ const Navigation = () => {
         </div>
       </nav>
 
-      {/* This is for category panel */}
+     
       <CategoryPanel
         openCategoryPanel={openCategoryPanel}
         isOpenCatPanel={isOpenCatPanel}
@@ -188,4 +188,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+

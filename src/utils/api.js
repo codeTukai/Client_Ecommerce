@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
-// ✅ POST function
+
 export const postData = async (url, formData) => {
   try {
     const response = await fetch(apiUrl + url, {
@@ -27,7 +27,7 @@ export const postData = async (url, formData) => {
   }
 };
 
-// ✅ GET function using axios
+
 export const fetchDataFromApi = async (url) => {
   try {
     const token = localStorage.getItem("accessToken");
