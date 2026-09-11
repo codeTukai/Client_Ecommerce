@@ -25,7 +25,7 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
   },
 }));
 
-const Header = () => {
+export const Header = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const context = useContext(MyContext);
@@ -267,4 +267,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+
