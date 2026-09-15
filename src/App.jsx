@@ -15,6 +15,8 @@ import MyAccount from "./pages/MyAccount";
 import MyList from "./pages/MyList";
 import Orders from "./pages/Orders";
 
+import { Header } from "./components/Header/Header";
+
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
@@ -99,7 +101,7 @@ function App() {
       <BrowserRouter>
         <MyContext.Provider value={myContextValue}>
           <ProductModalContext.Provider value={modalContextValue}>
-          
+          <Header />
             <Routes>
               <Route path="/" element={<Home />} />
 
