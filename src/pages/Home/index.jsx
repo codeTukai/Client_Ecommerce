@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import HomeSlider from "../../components/HomeSlider";
-import HomeCatSlider from "../../components/HomecatSlider";
+import HomeCatSlider from '../../components/HomeCatSlider'
 import { FaShippingFast } from "react-icons/fa";
 import AdsBannerslider from "../../components/AdsBannerSlider";
 import AdsBannersliderV2 from "../../components/AdsBannersliderV2";
